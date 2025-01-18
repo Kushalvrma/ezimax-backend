@@ -5,7 +5,7 @@ import * as dotenv from "dotenv";
 
 dotenv.config(); // Load environment variables from .env file
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 5000;
 
 // Initialize the database and start the server
 AppDataSource.initialize()
